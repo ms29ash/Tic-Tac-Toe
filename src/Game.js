@@ -65,7 +65,7 @@ function Game() {
     }
     return (
         <div className="container">
-            <h1>{values.winner === true && `${values.player === true ? 'B' : 'A'} Won`}</h1>
+            <h1>{values.winner === true && `${values.player === true ? 'X' : 'O'} Won`}</h1>
 
             <div className="game" >
                 {
